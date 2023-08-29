@@ -1,0 +1,30 @@
+#container{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#user{
+    width: 200px;
+    height: 230px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(63, 63, 63);
+    transition: 1s;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* 
+user1 #337180
+user2 #90DEAA
+user3 #73D658
+user4 #ED4B68
+user5 #90DEAA
+user6 #E34D30 
+*/
+#user img{
+    width: 100%;
+}
+
+#user:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 15px #337180
+}
